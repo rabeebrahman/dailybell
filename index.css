@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@700&family=Fugaz+One&family=Oswald&family=Poppins:wght@300&family=Righteous&family=Vollkorn:wght@700&display=swap');
 
 
+.wrapper{
+    overflow: hidden;
+    overflow-y: scroll;
+overflow-x: hidden;
+}
 #navl{
 width:200px;
 }
@@ -12,9 +17,7 @@ background-size:40px;
 border: unset;
 }
 #body{
-    overflow: hidden;
-    overflow-y: scroll;
-overflow-x: hidden;
+    
     background-image: url("./old/milksp2.jpg");
     background-color: rgba(135, 211, 242, 0.87);
     background-repeat: no-repeat;
